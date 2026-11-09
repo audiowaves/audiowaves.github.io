@@ -8,20 +8,38 @@
         background-color: #4c7453;
         color: #e4e3d3;
       }
+      table {
+        border: thin solid #e4e3d3;
+        border-collapse: collapse;
+      }
+      .header {
+        background-color: #3a6041;
+        font-size: 1.3em;
+      }
+      tr#dark-row {
+        background-color: #517f5d;
+      }
+      tr#light-row {
+        background-color: #66956a;
+      }
+      col.light-col {
+        background-color: #ffffff
+        opacity: 30%;
+      }
     </style>
   </head>
   <body>
 <!--
     BIG OL CHECKLIST:
-    - modified #dark-row and #light-row
-    - modified 1+ col - can use col to lighten event column
-    - modified .header
-    - modified whole table -> BORDER!
     - modified all table cells
 -->
     <h1>Stylish Schedule&mdash;Thursday, November 5</h1>
     <table>
-      <!--Insert colgroup here-->
+      <colgroup>
+        <col class="light-col">
+        <col>
+      </colgroup>
+      
       <tr class="header">
         <th>Time</td>
         <th>Event</td>
@@ -44,7 +62,7 @@
       </tr>
       <tr id="dark-row">
         <td>4&colon;00 PM&mdash;est. 20 minutes during rehearsal time</td>
-        <td>Train audio apprentice&mdash;Jaiden, covering digital audio mixing</td>
+        <td>Train audio apprentice&mdash;Jayden, covering digital audio mixing</td>
       </tr>
       <trr id="light-row">
         <td>6&colon;00&ndash;7&colon;00 PM</td>
