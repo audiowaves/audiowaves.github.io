@@ -1,6 +1,5 @@
 <!--
 directions
-1. At the very top set up a navigation bar for some bogus page links (Home  |  Services |  Staff  |  Contact)
 2. add position property
 3. add main page heading under nav bar
 4. start by making one staff member
@@ -27,7 +26,43 @@ rubric
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
- 
+<style>
+  html {
+    background-color: #4c7453;
+    margin:0;
+    border:0;
+    padding:0;
+  }
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: #66956a;
+}
+ul li {
+  float: left;
+}
+ul li a {
+  display: block;
+  color: white;
+  font-family: sans-serif, arial;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ul li a:hover {
+  background-color: #517f5d;
+}
+ul li a.active {
+  background-color: #6d9e71;
+}
+</style>
   </head>
   
   <body>
