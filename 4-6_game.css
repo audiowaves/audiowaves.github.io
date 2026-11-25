@@ -4,11 +4,28 @@ html {
   background-color: #4c7453;
   color: #e4e3d3;
 }
+
 table {
 border-collapse:collapse;
 margin: auto;
 }
-td {
+td, th {
   padding: 8px;
   border: 2px solid #e4e3d3;
+}
+
+thead tr {
+  background-color: #3a6041;
+}
+th.blank {
+  background-color: #4c7453;
+  border: 0px;
+}
+
+col:first-child {
+  background-color: rgba(255, 255, 255, 0.111) !important;
+}
+
+tbody tr {
+  background-color:;
 }
