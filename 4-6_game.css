@@ -4,7 +4,11 @@ html {
   background-color: #4c7453;
   color: #e4e3d3;
 }
+table {
+border-collapse:collapse;
+margin: auto;
+}
 td {
-  padding: 4px;
+  padding: 8px;
   border: 2px solid #e4e3d3;
 }
