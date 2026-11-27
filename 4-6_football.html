@@ -1,38 +1,16 @@
 <!DOCTYPE html>
-<!--
-4. Create an external style sheet to format table
-6. Check rubric
-7. Copy football scorecard and paste into NEW HTML FILE to make code for a second game
-8. Past code into 2nd file and edit as needed to have appropriate number of cols
-9. Once previewed and done, copy the code again and paste it into a third html scorecard file.
-10. Make a scorecards file containing links to all scorecards, then put that on the index.
-
-Rubric
-- 3 separate HTML files, each with its own scorecard table
-- each scorecars includes places to add round numbers and team/player names
-- at least 1 pseudo class is used to style the tables
-
-- 3 HTML, 1 CSS file submitted
-- Each HTML file has a scorecard table for a diff. game
-- Each scorecard has places for round numbers and players/teams
-- All 3 tables reference the same external style sheet
-- All HTML and CSS is accurate
-- At least 1 pseudo class was used in styling
-
-PLAN
-Games: Football, hockey (3 periods, so 4col instead of 5), bowling
--->
 <html lang="en-US">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="4-6_game.css">
     <title>4.6 Scorecards</title>
   </head>
 
   <body>
     <table>
       <colgroup>
+        <col>
         <col>
         <col>
         <col>
@@ -47,6 +25,7 @@ Games: Football, hockey (3 periods, so 4col instead of 5), bowling
           <th>Q2</th>
           <th>Q3</th>
           <th>Q4</th>
+          <th>Final</th>
         </tr>
       </thead>
 
@@ -54,8 +33,9 @@ Games: Football, hockey (3 periods, so 4col instead of 5), bowling
         <tr>
           <td>Seahawks</td>
           <td>7</td>
-          <td>7</td>
-          <td>17</td>
+          <td>0</td>
+          <td>10</td>
+          <td>14</td>
           <td>31</td>
         </tr>
 
@@ -63,9 +43,11 @@ Games: Football, hockey (3 periods, so 4col instead of 5), bowling
           <td>Cardinals</td>
           <td>0</td>
           <td>7</td>
-          <td>7</td>
+          <td>0</td>
+          <td>0</td>
           <td>7</td>
         </tr>
+      <a href="index.html">Return to sports hub</a>
       </tbody>
     </table>
   </body>  
